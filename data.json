@@ -1,17 +1,44 @@
 {
 
 "template": [
-	"<p><q>[quote]</q> –[celebrity]</p>\n<p>This game is [good_adj].</p>"
+	"<p class=\"pull-quote\"><q>[quote]</q> –[celebrity]</p>\n<p class=\"description\">[description]</p>"
 ],
 
-"title": [
+"description": [
+	"[design_desc] [art_desc]",
+	"[context_desc] [description]",
+	"[description] [reception_desc]"
+],
+
+"design_desc": [
+	"[design_desc] [design_desc]",
 	
+	"Drawing from [influential_game]'s [mechanic], this game does its best to translate that into a [setting] setting.",
+	"It's less a [genre] [type] and more a [genre]-influenced [type].",
+	"If you're not interested in a [type] set in [setting], this game may still have something for you in its [genre] thrills or well-executed [mechanic]."
+],
+
+"art_desc": [
+	"[art_desc] [art_desc]",
+	
+	"The [good_adj] [setting] vistas look [art_adj] in a way that evokes the best of the [type].",
+	"Not fully [art_style] or [art_style], the visuals are more what you'd expect from a [celebrity] [type].",
+	"I kept expecting the [art_adj] [art_style] to devolve into [genre] pastiche, but I was pleasantly surprised when it reminded me more of [influential_game]."
+],
+
+"context_desc": [
+	"Context."
+],
+
+"reception_desc": [
+	"Reception."
 ],
 
 "quote": [
 	"It's like [influential_game] meets [influential_game].",
 	"This takes the [mechanic] in [influential_game] and fully realizes it.",
-	"This is the [type] [influential_game] wishes it was."
+	"This is the [type] [influential_game] wishes it was.",
+	"[quote] Seriously, it's <em>that</em> [good_adj]."
 ],
 
 "influential_game": [
@@ -76,7 +103,24 @@
 	"Planescape: Torment",
 	"Undertale",
 	"Jackbox Party Pack",
-	"Wolfenstein: The New Order"
+	"Wolfenstein: The New Order",
+	"Final Fantasy Tactics",
+	"Fire Emblem",
+	"Europa Universalis",
+	"StarCraft",
+	"WarCraft",
+	"Star Trek: Elite Force II",
+	"Shin Megami Tensei",
+	"Diablo",
+	"Torchlight",
+	"Thief",
+	"System Shock 2",
+	"Telltale's The Walking Dead",
+	"Grim Fandango",
+	"Gone Home",
+	"Cookie Clicker",
+	"Starfighter (the visual novel)",
+	"Microsoft Flight Simulator X"
 ],
 
 "celebrity": [
@@ -101,10 +145,10 @@
 	
 	"grand strategy game",
 	"4X game",
+	"turn-based strategy game",
 	"turn-based tactics game",
 	"real-time strategy game",
 	"real-time tactics game",
-	"turn-based strategy game",
 	"tower defense game",
 	"dungeon-crawler",
 	"action RPG",
@@ -140,7 +184,7 @@
 	"tactical RPG",
 	"open-world RPG",
 	"narrative RPG",
-	"CRPG",
+	"isometric RPG",
 	"action sandbox game",
 	"pet simulator",
 	"social simulator",
@@ -154,7 +198,8 @@
 	"lateral-thinking puzzler",
 	"process puzzler",
 	"logic puzzler",
-	"digital card game"
+	"digital card game",
+	"comedy game"
 ],
 
 "genre": [
@@ -299,10 +344,13 @@
 ],
 
 "good_adj": [
+	"good",
 	"visceral",
 	"experiential",
 	"genre-defying",
-	"high-value-proposition"
+	"high-value-proposition",
+	"shareworthy",
+	"buzzworthy"
 ]
 
 }
